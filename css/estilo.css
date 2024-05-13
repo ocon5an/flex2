@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(228, 228, 228);
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: rgb(250, 86, 80);
+}
+
+#principal{
+    background: #777;
+}
+
+.contenedor{
+    width: 690px;
+    border: 1px solid #dbdbdb;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #fff;
+    font-size: 2em;
+    margin: 4px;
+    width: 120px;
+    height: 70px;
+}
+
+#caja1{flex-direction: row;}
+#caja1>div{background: #FF0000;}
+
+#caja2{flex-direction: row-reverse;}
+#caja2>div{background: #B22222;}
+
+#caja3{flex-direction: column; width: 130px;}
+#caja3>div{background: #FF4500;}
+
+#caja4{flex-direction: column-reverse; width: 130px;}
+#caja4>div{background: #DC143C;}
+
+#caja5{flex-wrap: wrap; width: 130px;}
+#caja5>div{background: #4B0082;}
+
+#caja7{flex-wrap: wrap-reverse; width: 130px;}
+#caja7>div{background: #800020;}
+
+#caja8{justify-content: flex-start;}
+#caja8>div{background: #FF7F50;}
+
+#caja9{justify-content: flex-end;}
+#caja9>div{background: #FF6347;}
+
+#caja10{justify-content: center;}
+#caja10>div{background: #FF2400;}
+
+#caja11{justify-content: space-between;}
+#caja11>div{background: #FA8072;}
+
+#caja12{justify-content:space-around;}
+#caja12>div{background: #FFC0CB;}
+
+
+
+
